@@ -1,11 +1,7 @@
-﻿using MyFirstApp.ForeachLoop;
-using MyFirstApp.ForLoop;
-using MyFirstApp.WhileLoop;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
+
+using MyFirstApp.ForLoop;
 
 namespace MyFirstApp
 {
@@ -19,7 +15,7 @@ namespace MyFirstApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmWhile());
+            Application.Run(new frmForLoop());
         }
     }
 }

@@ -77,6 +77,9 @@
     <EmbeddedResource Include="ForeachLoop\frmForEach.resx">
       <DependentUpon>frmForEach.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ForLoop\frmForLoop.resx">
+      <DependentUpon>frmForLoop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

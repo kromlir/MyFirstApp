@@ -1,5 +1,4 @@
 ﻿using MyFirstApp.ForeachLoop;
-using MyFirstApp.ForLoop;
 using MyFirstApp.WhileLoop;
 using System;
 using System.Collections.Generic;

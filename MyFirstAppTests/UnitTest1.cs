@@ -1,13 +1,16 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MyfirstApp;
+using NUnit.Framework;
 
-using static Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
-
-namespace MyFirstApp.Tests
+namespace MyFirstAppTests
 {
-    [TestClass()]
-    public class CalculatorTests
+    public class Tests
     {
-        [TestMethod()]
+        [SetUp]
+        public void Setup()
+        {
+        }
+
+        [Test]
         public void AddTest()
         {
             Calculator calculator = new Calculator();

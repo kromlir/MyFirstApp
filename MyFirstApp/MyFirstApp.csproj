@@ -76,6 +76,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClases\Geek1.cs" />
+    <Compile Include="AbstractClases\GeeksForGeeks.cs" />
     <Compile Include="Calculator.cs" />
     <Compile Include="ForeachLoop\frmForEach.cs">
       <SubType>Form</SubType>

@@ -39,11 +39,11 @@ namespace MyFirstApp.ForLoop
 
 
             MessageBox.Show("El número de estudiantes es: " + Student.STUDENT_COUNTER);
-            /* misma función pero casteando el objeto automaticamente dentro de la declaración del Foreach
+            // misma función pero casteando el objeto automaticamente dentro de la declaración del Foreach
             foreach (Student _student in studentList)
             {
                 //Unboxing, estas sacando un objeto de dentro de una "caja"
-                MessageBox.Show(_student.Name + " " + _student.Surname;
+                MessageBox.Show(_student.Name + " " + _student.Surname);
             }
         }
     }
